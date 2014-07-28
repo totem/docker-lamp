@@ -1,4 +1,4 @@
-FROM totem/ubuntu:raring
+FROM totem/ubuntu:trusty
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -y update
